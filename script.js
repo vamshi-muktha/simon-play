@@ -68,7 +68,7 @@ function checkans(idx) {
     }else{
         h.innerText = "Game Over!!! press any key to start again";
         btnFlash(body);
-        let audio = new Audio('/sounds/wrong.mp3');
+        let audio = new Audio("/sounds/wrong.mp3");
         audio.play();
         if(high < currhigh){
             high = currhigh;
@@ -92,7 +92,7 @@ function btnpress() {
     checkans(user.length-1);
 
     // Play a sound
-    let audio = new Audio('/sounds/yellow.mp3');
+    let audio = new Audio("/sounds/yellow.mp3");
     audio.play();
 }
 
