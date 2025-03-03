@@ -14,17 +14,18 @@
 
     <div class="container mt-4">
         <h1 class="display-4 fw-bold">SIMON GAME</h1>
-        <h2 class="fs-4">Press any key to start the game</h2>
+        <button class="btn btn-primary mt-3">Start Play</button>
+        <h2 id="level" class="fs-4 mt-2">Press Start to Play</h2>
         <h3 class="fs-5">High Score: <span id="high-score">0</span></h3>
 
         <div class="main d-flex flex-column align-items-center mt-4">
             <div class="rows d-flex">
-                <div class="colors red btn btn-danger m-2" id="red"></div>
-                <div class="colors green btn btn-success m-2" id="green"></div>
+                <div class="colors red m-2" id="red"></div>
+                <div class="colors green m-2" id="green"></div>
             </div>
             <div class="rows d-flex">
-                <div class="colors blue btn btn-primary m-2" id="blue"></div>
-                <div class="colors yellow btn btn-warning m-2" id="yellow"></div>
+                <div class="colors blue m-2" id="blue"></div>
+                <div class="colors yellow m-2" id="yellow"></div>
             </div>
         </div>
     </div>
